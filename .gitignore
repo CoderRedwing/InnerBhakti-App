@@ -1,0 +1,47 @@
+# .gitignore for Flutter frontend and Node.js backend project
+
+# Flutter specific files
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.idea/
+build/
+ios/Flutter/.last_build_id
+.flutter/
+*.dart_tool/
+*.packages
+
+# Flutter Android specific
+android/.gradle
+android/app/build/
+android/gradle/
+android/.idea/
+
+# Flutter iOS specific
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/.last_build_id
+
+# Backend (Node.js)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+# You might want to include `package-lock.json` in certain cases, but it's generally excluded for shared work in development environments
+
+# General OS files
+.DS_Store
+Thumbs.db
+.idea/
+
+# Logs and temporary files
+*.log
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*   # For multiple environments
