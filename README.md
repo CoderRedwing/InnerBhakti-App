@@ -41,9 +41,9 @@ To document and share your work visually, follow these steps:
 2. Save the images in a directory called `screenshots/`.
 3. Include these screenshots in the **README.md** using the markdown syntax:
    ```markdown
-   ![Program List](screenshots/program_list.jpg)
-   ![Program Details](screenshots/program_details.jpg)
-   ![Audio Player](screenshots/audio_player.jpg)
+   ![Program List](snapshot/program_list.jpg)
+   ![Program Details](snapshot/program_details.jpg)
+   ![Audio Player](snapshot/audio_player.jpg)
    ```
 
 ## Tech Stack
