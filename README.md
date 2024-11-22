@@ -39,12 +39,17 @@ To document and share your work visually, follow these steps:
    - Program Details Screen
    - Audio Player Screen
 2. Save the images in a directory called `screenshots/`.
-3. Include these screenshots in the **README.md** using the markdown syntax:
-   ```markdown
-   ![Program List](snapshot/program_list.jpg)
-   ![Program Details](snapshot/program_details.jpg)
-   ![Audio Player](snapshot/audio_player.jpg)
-   ```
+3. ## Screenshots
+
+### Program List Screen
+![Program List](snapshot/program_list.jpg)
+
+### Program Details Screen
+![Program Details](snapshot/program_details.jpg)
+
+### Audio Player Screen
+![Audio Player](snapshot/audio_player.jpg)
+
 
 ## Tech Stack
 - **Frontend**: Flutter (Dart)
