@@ -9,7 +9,6 @@ class ProgramService {
 
   static Future<List<Program>> fetchPrograms() async {
     try {
-      print('Fetching programs from $_baseUrl');
       final response = await http.get(Uri.parse(_baseUrl!));
 
       if (response.statusCode == 200) {
